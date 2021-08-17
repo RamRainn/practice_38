@@ -340,6 +340,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let offset = 0;
 
     
+
     if (slides.length < 10) {
         total.textContent = `0${slides.length}`;
         current.textContent = `0${slideIndex}`;
@@ -475,4 +476,5 @@ window.addEventListener('DOMContentLoaded', () => {
             dots[slideIndex - 1].style.opacity = 1;
         });
     });
+
 });
